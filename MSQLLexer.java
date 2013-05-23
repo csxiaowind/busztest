@@ -24,7 +24,7 @@ public class MSQLLexer {
 		if (idxstart <0)
 			return null;
 			
-			
+		    //devµÄ¸Ä¶¯
 			//master comment
 		
 		idxstart = idxstart + 1;
