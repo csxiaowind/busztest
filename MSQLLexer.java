@@ -23,6 +23,9 @@ public class MSQLLexer {
 		idxstart = sql.indexOf('{', idxstart);
 		if (idxstart <0)
 			return null;
+			
+			
+			//master comment
 		
 		idxstart = idxstart + 1;
 		int idxend = sql.indexOf('}', idxstart);
